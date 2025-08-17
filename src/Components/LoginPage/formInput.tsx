@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// this is to be a reusable input element. built with label , customizable classnames using props and error with customizable debounce fx.
+// this is to be a reusable input element. built with label , customizable classnames using props and error with customizable debounce fx.can also set custom error messages. use a default erorr for now.
 
 const FormInput = () => {
   const [userInput, setUserInput] = useState<string>("");
